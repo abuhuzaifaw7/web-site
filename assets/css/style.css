@@ -1,0 +1,214 @@
+/* improt font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* rimix icon */
+@import url('https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css');
+
+/* Basic Styling (Default Style) */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+a , .a{
+    text-decoration: none!important;
+}
+a:hover{
+    text-decoration: none;
+}
+ul , ol , li{
+    padding: 0;
+    margin: 0;
+}
+body {
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.main-header {
+    background-color: #fff;
+    box-shadow: 2px 2px 50px rgba(227, 226, 226, 0.525);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.logo-header{
+    min-height: 25px;
+    height: 50px;
+}
+.header-dr{
+    margin-top: 16px!important;
+}
+.icon-shape i{
+    font-size: 25px;
+    color: #8b3dff;
+    padding: 10px;
+    background-color: #f3e9fe;
+    border: 1px solid #bf88f8;
+    border-radius: 6px;
+}
+.carousel-item::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    background: linear-gradient(150deg, #00000086, #4f2390b8);
+    width: 100%;
+    height: 100%;
+}
+.py-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.gap-10{
+    gap: 5rem!important;
+}
+.price-text .price-show span , .price-hide span{
+    font-family: var(--font-family)!important;
+    color: #8b3dff;
+}
+.avatar-xxl {
+    max-width: 120px;
+    min-width: 100px;
+}
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.bg-gray-200 {
+    background-color: #f7f7f7;
+}
+
+/* Card Styles */
+
+.card-lift {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-lift:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.avatar-xxl {
+    width: 120px;
+    height: 120px;
+}
+
+/* Button Styles */
+
+.btn-outline-primary {
+    border-color: #337ab7;
+    color: #337ab7;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    background-color: #337ab7;
+    color: #fff;
+    border-color: #337ab7;
+}
+.card .card-body .small{
+    color: gray;
+    text-decoration: none;
+}
+.list-unstyled span i {
+    color: #8b3dff;
+    font-size: 1rem;
+}
+.pattern-square{
+    position: relative;
+}
+.pattern-square2{
+    position: relative;
+}
+.pattern-square:after {
+    background-color: #8b3dff1b!important;
+    background-position: bottom;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    -webkit-mask-image: linear-gradient(0deg, transparent 35%, #fff 75%);
+    mask-image: linear-gradient(0deg, transparent 35%, #fff 75%);
+    position: absolute;
+    right: 0;
+    top: 0;
+    rotate: 180deg;
+    z-index: -1;
+}
+.pattern-square2:after {
+    background-color: #8b3dff1b!important;
+    background-position: bottom;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    -webkit-mask-image: linear-gradient(0deg, transparent 35%, #fff 75%);
+    mask-image: linear-gradient(0deg, transparent 35%, #fff 75%);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.card-body figure img {
+    min-height: 10px;
+    filter: grayscale(100);
+    height: 40px;
+}
+.f-logo img{
+    min-height: 15px;
+    height: 50px;
+}
+.icon-link-hover {
+    transition: color 0.2s ease-in-out; /* add transition effect */
+}
+
+.icon-link-hover:hover {
+opacity: 0.5; /* fade out the icon on hover */
+transition: opacity 0.2s ease-in-out; /* add transition effect */
+}
+.custom-slider-bg{
+    position: absolute;
+    top: 22%;
+    background-color: #ffffff27;
+    left: 15%;
+    right: 15%;
+    border-radius: 6px;
+    padding: 50px;
+    text-align: center;
+
+}
+.custom-slider-bg h2{
+    color: #fff;
+    font-size: 55px;
+
+}
+.custom-slider-bg p{
+    color: #fff;
+    font-size: 16px;
+
+}
